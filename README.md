@@ -10,8 +10,10 @@
 ## Running The Test
 1.  To run the test on chrome:
     enter "npm run test-chrome" to run all the tests
-    or "testcafe chrome test/user-login.test.ts -e" in the terminal.
+    or
+    "testcafe chrome test/user-login.test.ts -e" in the terminal.
 
 2  To run the test on firefox:
     enter "npm run test-firefox" 
-    or "testcafe firefox test/user-login.test.ts -e" in the terminal.
+    or 
+    "testcafe firefox test/user-login.test.ts -e" in the terminal.
