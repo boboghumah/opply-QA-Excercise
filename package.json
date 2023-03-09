@@ -1,0 +1,29 @@
+{
+    "name": "opply",
+    "version": "1.0.0",
+    "description": "opply Technical Assesment",
+    "main": "login.ts",
+    "scripts": {
+        "test-chrome": "testcafe chrome test/ -e -u",
+        "test-firefox": "testcafe firefox test/ -e -u"
+    },
+    "author": "Bob Oghumah",
+    "license": "ISC",
+    "devDependencies": {
+        "axios": "^0.21.1",
+        "cheerio": "^1.0.0-rc.3",
+        "prettier": "^2.1.2",
+        "random-email": "^1.0.3",
+        "testcafe": "^1.2.1",
+        "yargs": "^13.3.2"
+    },
+    "dependencies": {
+        "@ffmpeg-installer/ffmpeg": "^1.0.20",
+        "form-data": "^3.0.0",
+        "moment-timezone": "^0.5.32",
+        "query-string": "^6.10.1",
+        "random-name": "^0.1.2",
+        "random-words": "^1.1.1",
+        "testcafe-reporter-html": "^1.4.6"
+    }
+}
